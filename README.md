@@ -18,16 +18,16 @@ The research questions are really "open". In other words: these are just a start
 The teaching team would be sad, if the only thing you achieved in our course, is producing a vanilla Jupyter Notebook where you make us some standard charts. With this course, you should have advanced much further on the learning curve.
 
 ## What do we expect from each Team ?
-•	In a nutshell, we want you to think as a data-scientist throughout the whole production pipeline: retrieving & pre-processing data, exception handling, building a model, hyperparameter optimization, etc...
-•	We expect that you bring the topics explained during the course into practice. Your team should be able to bring value to the data. You can use techniques that were not covered during the course and can bring other python packages into the project. 
-•	Make sure you start from the same python environment, used in the course. Of course you can update packages, install new ones,...
-•	Make sure that you understand the underlying mathematics in the approach that you use (supervised, unsupervised, nlp, AI,..). A data-scientist is much more than an expert in Sklearn, NLTK, Pytorch,etc...
+*	In a nutshell, we want you to think as a data-scientist throughout the whole production pipeline: retrieving & pre-processing data, exception handling, building a model, hyperparameter optimization, etc...
+*	We expect that you bring the topics explained during the course into practice. Your team should be able to bring value to the data. You can use techniques that were not covered during the course and can bring other python packages into the project. 
+*	Make sure you start from the same python environment, used in the course. Of course you can update packages, install new ones,...
+*	Make sure that you understand the underlying mathematics in the approach that you use (supervised, unsupervised, nlp, AI,..). A data-scientist is much more than an expert in Sklearn, NLTK, Pytorch,etc...
 
 ## What do you need to hand in ?
 The deliverables shall consist of:
-o	a program (python only !)
-o	a report
-o	a presentation
+*	a program (python only !)
+*	a report
+*	a presentation
 
 ## Deliverable
 The project is a group-effort which has to result in Three deliverables
@@ -60,42 +60,42 @@ If you are not able to deliver your python code in a GitHub folder, you can use 
 In this S3-bucket you can drop your report (pdf)
 
 ## Grading
-•	15% on the presentation
-•	20% on the written report
-•	60% on the work done (project)
-•	5% peer evaluation
+*	15% on the presentation
+*	20% on the written report
+*	60% on the work done (project)
+*	5% peer evaluation
 
 ## Grading Criteria 
 Below is in bullet-point format a non-exhaustive list of the criteria that we will take into account when we evaluate your work.
 ### Modeling
-•	Are you able to reach out to different data-sets outside the assigned dataset ?
-•	Visualisation
-•	Code: Style & Organisation of your Python Code. 
-•	Does the code actually work ?
+*	Are you able to reach out to different data-sets outside the assigned dataset ?
+*	Visualisation
+*	Code: Style & Organisation of your Python Code. 
+*	Does the code actually work ?
 We should be able to clone your code on github and run it on our computer. Make sure that you use a requirements.txt file to specify the python packages you require.
-•	Delivery App
+*	Delivery App
 If you deliver an App, the code should be on S3. The app should be deployed.
 Note that after the Easter break, we plan a course on app-building in Python.
 ### Content of the report
-•	Your pipeline : from retrieving data to the actual model
-•	Introduction and problem statement
-•	Research method & scientific character of the work done
-•	Argumentation
-•	Results: discussion / interpretation
-•	General conclusion
-•	Coherence / logical composition
-•	Originality & creativity
-•	References
+*	Your pipeline : from retrieving data to the actual model
+*	Introduction and problem statement
+*	Research method & scientific character of the work done
+*	Argumentation
+*	Results: discussion / interpretation
+*	General conclusion
+*	Coherence / logical composition
+*	Originality & creativity
+*	References
 ### Presentation 
-•	Presentation: used language
-•	Presentation: content / accessibility
-•	Presentation: form / composition / timing
-•	Understanding underlying mathematics
-•	Answering questions on Python and ML Code
+*	Presentation: used language
+*	Presentation: content / accessibility
+*	Presentation: form / composition / timing
+*	Understanding underlying mathematics
+*	Answering questions on Python and ML Code
 ## Failure
 There are two ways to obtain a "no-pass" result:
-•	Your project did not receive a pass grade
-•	Your team did not hand in a report in time.
+*	Your project did not receive a pass grade
+*	Your team did not hand in a report in time.
 
 In case of a "no-pass" result, students can participate in the August exam. Here new projects will be made available. The August session will be individual, not in team work.
 

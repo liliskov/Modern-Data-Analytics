@@ -3,12 +3,12 @@ Exam Project GOZ39a
 
 ## Summary
 There is no exam for this course, in stead a project has to be handed in. The project involves a data analytics assignment. The projects are assigned (randomly) to the different teams :
-•	Water Security
-•	Uncovering the network
-•	Politicians and Climate Change
-•	Heat Waves Impacts
-•	ECB Bond Purchases
-•	Cities and Greenhouse Gas Emissions
+*	Water Security
+*	Uncovering the network
+*	Politicians and Climate Change
+*	Heat Waves Impacts
+*	ECB Bond Purchases
+* Cities and Greenhouse Gas Emissions
 
 Each of the projects are described in detail in the appendices of this document. 
 

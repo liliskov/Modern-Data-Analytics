@@ -203,8 +203,9 @@ lon = ds['lon'][:]
 year1 = pdomww[1,:,:]
 
 year2 = lat[100,]
-year2 = pdomww[100,:,:]
-
+year2 = pdomww[81,:,:]
+dateee = pd.DataFrame(data = year2)
+dateee = pd.melt(dateee, value_name= '1981')
 yearN = pd.DataFrame(data = year2)
 yearN["lat"] = lat 
 yearN.columns = lon
@@ -212,7 +213,25 @@ yearN.index = lat
 
 YearT = pd.melt(yearN, ignore_index=False)
 
+data_f = pd.DataFrame()
+year = 1980
+count = 0
+for i in range(80,116):
+    data = pdomww[i,:,:]
+    if i == 80:
+        data_pd = pd.DataFrame(data = data)
+        lat = ds['lat'][:]
+        data_pd.index =  lat
+        lon = ds['lon'][:]
+        data_pd.columns = lon
+        data_pd = pd.melt(data_pd, ignore_index = False, var_name='lon', value_name='1980')
+    else:
+        data_I = pd.DataFrame(data = data)
+        data_I.index =  lat
+        year = year+1
+        data_I = pd.melt(data_I,ignore_index = False, value_name= str(year))
+        data_pd[str(year)] = data_I.loc[:,str(year)]
+        count = count +1
+        print(count)
 
-
-
-for i in range()
+data_pd.to_csv("Extracted_data_pdomww_1980-2016.csv")

@@ -19,3 +19,4 @@ geopandas==0.9.0
 geoplot==0.4.1
 geopy==2.1.0
 tqdm @ file:///tmp/build/80754af9/tqdm_1602185206534/work
+torch==1.8.1
